@@ -15,28 +15,82 @@ intro:
 questions:
 
   - prompt:
-      How many devices?
+      How many portable devices (mobile phones, laptops, tablets etc) do you own?
     answers:
-      - text: 0
+      - text: 0 - 1
         points: 0
         story:
           <p>You have no devices</p>
-      - text:  2-3
+      - text: 2 - 5
         points: 1
         story:
           <p>You have many devices</p>
-
+     - text: more than 5
+            points: 2
+            story:
+          <p>You have SO SO many devices</p>
   - prompt:
-      What kind of car do you have?
+      How many times a week do you eat meat?
     answers:
-      - text: Prius
+      - text: Never
         points: 0
         story:
-          <p>You have nice transport</p>
-      - text:  Corvette
+          <p>You are a vegetarian</p>
+      - text: Not everyday
         points: 1
         story:
-          <p>You have bad transport</p>
+          <p>You sometimes eat meat</p>
+      - text: Everyday
+        points: 2
+        story:
+          <p>You always meat</p>
+  - prompt:
+      In your home, how square meters do you have for yourself?
+    answers:
+      - text: Around 15 m2 (about one room)
+        points: 0
+        story:
+          <p>You live in a bedsit</p>
+      - text: Around 15 - 30 m2 (a couple of rooms)
+        points: 1
+        story:
+          <p>You have your own flat</p>
+      - text: Over 40 m2 (a house) 
+        points: 2
+        story:
+          <p>You own a house</p>
+            - prompt:
+  How many new items (for example fashion, furnishing, lifestyle) do buy on a month?
+    answers:
+      - text: 0 - 10 items
+        points: 0
+        story:
+          <p>You dont buy that much</p>
+      - text: 11 to 25 items
+        points: 1
+        story:
+          <p>You buy some stuff</p>
+      - text: Over 26 items
+        points: 2
+        story:
+          <p>You buy so much!</p>
+  How do you mostly get around?
+    answers:
+      - text: Walking or biking
+        points: 0
+        story:
+          <p>You walk</p>
+      - text: Public transport
+        points: 1
+        story:
+          <p>You take public transport</p>
+      - text: Car
+        points: 2
+        story:
+          <p>You drive</p>
+
+
+
 
 
 end:
