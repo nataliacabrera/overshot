@@ -64,7 +64,7 @@ questions:
       - text: Over 40 m2 (a house) 
         points: 2
         story:
-          <p>You own a house</p>
+          <img src=images/floatinghousead.jpg>
 
   - prompt:
       How many new items (for example fashion, furnishing, lifestyle) do buy on a month?
@@ -104,6 +104,7 @@ end:
   <h1>This is a snapshot of what the world would look like on your Earth Overshoot Day in 2040 if everyone acted like you</h1>
   <h1>PERSONAL DATE</h1>
   <p>Click or hover over a story to find out more</p>
+  <img src=NYTLogo.jpg>
 
 main story:
   - points: 0
