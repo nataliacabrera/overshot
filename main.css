@@ -8,3 +8,7 @@ body#intro {
   max-width: 600px;
   margin: auto;
 }
+body#question {
+  max-width: 600px;
+  margin: auto;
+}

@@ -1,11 +1,11 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-module.exports = {"intro":"<h1>Welcome!</h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>\n<p>Vestibulum laoreet neque quis bibendum rutrum. Nullam orci eros, eleifend id imperdiet id, aliquet eu sem. Aliquam vestibulum metus orci, ut semper mi posuere a. Duis eget ipsum sed metus efficitur finibus. Aliquam vitae aliquam ante. Suspendisse vitae lacus nec augue sollicitudin gravida. Praesent rutrum viverra sollicitudin. Nunc viverra ullamcorper odio sit amet finibus.</p>\n<a href=#q0>Start</a>","questions":[{"prompt":"How many devices?","answers":[{"text":0,"points":0,"story":"<p>You have no devices</p>"},{"text":"2-3","points":1,"story":"<p>You have many devices</p>"}]},{"prompt":"What kind of car do you have?","answers":[{"text":"Prius","points":0,"story":"<p>You have nice transport</p>"},{"text":"Corvette","points":1,"story":"<p>You have bad transport</p>"}]}],"end":"<h1>We have generated the following newspaper for you</h1>","main story":{"10":"<h1>This is bad</h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>","20":"<h1>This is worse</h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>"}};
+module.exports = {"intro":"<h1>Welcome!</h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>\n<p>Vestibulum laoreet neque quis bibendum rutrum. Nullam orci eros, eleifend id imperdiet id, aliquet eu sem. Aliquam vestibulum metus orci, ut semper mi posuere a. Duis eget ipsum sed metus efficitur finibus. Aliquam vitae aliquam ante. Suspendisse vitae lacus nec augue sollicitudin gravida. Praesent rutrum viverra sollicitudin. Nunc viverra ullamcorper odio sit amet finibus.</p>\n<a href=#q>Start</a>","questions":[{"prompt":"How many devices?","answers":[{"text":0,"points":0,"story":"<p>You have no devices</p>"},{"text":"2-3","points":1,"story":"<p>You have many devices</p>"}]},{"prompt":"What kind of car do you have?","answers":[{"text":"Prius","points":0,"story":"<p>You have nice transport</p>"},{"text":"Corvette","points":1,"story":"<p>You have bad transport</p>"}]}],"end":"<h1>We have generated the following newspaper for you</h1>","main story":{"10":"<h1>This is bad</h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>","20":"<h1>This is worse</h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>"}};
 },{}],2:[function(require,module,exports){
 var $ = require('jquery');
 var _ = require('underscore');
-
 var data = require('../data.yaml');
-console.log(data);
+
+$(update);
 
 $(window).on('popstate', update);
 
@@ -18,18 +18,18 @@ $(document).on('click', 'a', function(e) {
 });
 
 
-$(update);
-
 function update() {
-  var step = location.hash.slice(1);
-  console.log('UPDATE', step);
+  var answers = _(location.hash.slice(2).split(',')).compact();
+  console.log('UPDATE', answers);
 
-  if (step == '')
+  if (location.hash == '')
     showIntro();
-  else if (step == 'q0')
-    showQuestion(0);
-  else if (step == 'q1')
-    showQuestion(1);
+  else if (answers.length < data.questions.length)
+    showQuestion(answers.length);
+  else if (answers.length >= data.questions.length)
+    showEnd();
+  else
+    showIntro();
 }
 
 
@@ -38,29 +38,25 @@ function showIntro() {
   document.body.id = 'intro';
 }
 
+
 function showQuestion(index) {
-  var html = '<div class=question>';
   let question = data.questions[index]
   console.log({question});
-  html += question.prompt;
-  html += '</div>';
-  question.answers.map(function(a) {
-    html += '<a href=#q' + (index+1) + '>' + a.text + '</a><br>';
+  var html = '<h1>' + question.prompt + '</h1>';
+  var base = location.hash;
+  if (base.length > 2)
+    base += ',';
+  question.answers.map(function(a, i) {
+    html += '<a class=answer href=' + base + i + '>' + a.text + '</a><br>';
   });
   $(document.body).html(html);
   document.body.id = 'question';
 }
 
-function answerQuestion(e) {
-
-}
 
 function showEnd() {
-
-}
-
-function generatePaper() {
-
+  $(document.body).html(data.end);
+  document.body.id = 'end';
 }
 
 

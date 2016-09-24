@@ -1,8 +1,8 @@
 var $ = require('jquery');
 var _ = require('underscore');
-
 var data = require('../data.yaml');
-console.log(data);
+
+$(update);
 
 $(window).on('popstate', update);
 
@@ -15,18 +15,18 @@ $(document).on('click', 'a', function(e) {
 });
 
 
-$(update);
-
 function update() {
-  var step = location.hash.slice(1);
-  console.log('UPDATE', step);
+  var answers = _(location.hash.slice(2).split(',')).compact();
+  console.log('UPDATE', answers);
 
-  if (step == '')
+  if (location.hash == '')
     showIntro();
-  else if (step == 'q0')
-    showQuestion(0);
-  else if (step == 'q1')
-    showQuestion(1);
+  else if (answers.length < data.questions.length)
+    showQuestion(answers.length);
+  else if (answers.length >= data.questions.length)
+    showEnd();
+  else
+    showIntro();
 }
 
 
@@ -35,29 +35,25 @@ function showIntro() {
   document.body.id = 'intro';
 }
 
+
 function showQuestion(index) {
-  var html = '<div class=question>';
   let question = data.questions[index]
   console.log({question});
-  html += question.prompt;
-  html += '</div>';
-  question.answers.map(function(a) {
-    html += '<a href=#q' + (index+1) + '>' + a.text + '</a><br>';
+  var html = '<h1>' + question.prompt + '</h1>';
+  var base = location.hash;
+  if (base.length > 2)
+    base += ',';
+  question.answers.map(function(a, i) {
+    html += '<a class=answer href=' + base + i + '>' + a.text + '</a><br>';
   });
   $(document.body).html(html);
   document.body.id = 'question';
 }
 
-function answerQuestion(e) {
-
-}
 
 function showEnd() {
-
-}
-
-function generatePaper() {
-
+  $(document.body).html(data.end);
+  document.body.id = 'end';
 }
 
 
