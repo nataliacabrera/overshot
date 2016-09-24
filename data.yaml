@@ -43,6 +43,12 @@ questions:
           <p>You sometimes eat meat</p>
       - text: Everyday
         points: 2
+          <h1>Quick And Easy Seven Eyed Salmon</h1>
+          <p>This delicious dish is ready in less than 30 minutes! Cool sea grass salsa pairs perfectly with the delicious Seven Eyed Salmon. For a sandwich option, serve fish and salsa in sun dried fish skin pockets.</p>
+          <p>Pro tip: Be sophisticated and use the eyes only on top of a sea horse chutney!</p>
+   
+  - prompt:
+      How much space do you have for yourself in your home?   
     answers:
       - text: Around 15 m2 (about one room)
         points: 0
