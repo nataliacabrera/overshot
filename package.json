@@ -1,0 +1,28 @@
+{
+  "name": "overshot",
+  "version": "1.0.0",
+  "description": "For POV Hackathon -----------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twfarnam/overshot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twfarnam/overshot/issues"
+  },
+  "homepage": "https://github.com/twfarnam/overshot#readme",
+  "dependencies": {
+    "browser-sync": "^2.16.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-less": "^3.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "yamlify": "^0.1.3"
+  }
+}
