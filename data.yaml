@@ -43,10 +43,6 @@ questions:
           <p>You sometimes eat meat</p>
       - text: Everyday
         points: 2
-        story:
-          <p>You always meat</p>
-  - prompt:
-      In your home, how square meters do you have for yourself?
     answers:
       - text: Around 15 m2 (about one room)
         points: 0
@@ -96,19 +92,34 @@ end:
   <h1>This is a snapshot of what the world would look like on your Earth Overshoot Day in 2040 if everyone acted like you</h1>
   
   <p>Click or hover over a story to find out more</p>
+        story:
+          <p>You always meat</p>
+  - prompt:
+      In your home, how square meters do you have for yourself?
   
 main story:
   - points: 0
     html:
-      <h1>This is bad</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>
+      <h1>Therapists Demonstrate To Bring Back More Technology</h1>
+      <p>In an attempt to conserve the last remaining energy supplies in the United States, the Energy Police have shut down all beauty salons citing excessive use of water and heat. This is fifth industry to be hit by the recent regulation that bans “frivolous” use of energy, after the high profile shutdown of the aviation business.</p>
+      <p>Housewife Sylvia B., 45, said “It was somehow ok when they forced me washing my dishes by hand, but I really don’t know how to sleek my hair manually”.</p>
 
+  - points: 3
+    html:
+      <h1>Energy Police Shuts Down Beauty Salons</h1>
+      <p></p>
+      
+  - points: 4
+    html:
+      <h1>Woman Kills Pedestrian In Order to Charge Phone</h1>
+      <p>A terrible attack took place this Monday Morning in Central Park. Witnesses saw a woman in mental crisis kill 26 year old teacher Charles B. to get his phone. After deeper investigation the police are not sure if this attack was to get access to a charged phone or if the woman is part of the Energy Terrorist Ring trying to take over all the existing energy on earth.</p>
+      
   - points: 5
     html:
       <h1>Land Mafia Takes Over Last Island</h1>
       <p>The world’s most dangerous land mafia LandKill took over the planet’s last remaining landmass in a violent attack last night. </p>
       <p>After the great flood in 2038 the mafia became more and more influential recruiting their members amongst underprivileged people without access to food or floating devices.  “It is easy to understand” so Christian J., president of the Organisation for Landmass Distribution “losing 60% of all humankind to the flood puts the ones without land or tools to fish in a position of anger. This is perfect fertile soil for the terrorists. They promise them huge Floating Devices and a bright future in the community.”</p>
-       <p>The people who were actually living on this last piece of land, which used to be Equador, were kicked barbarously into the water by the mafia to fend for themselves. </p>     
+      <p>The people who were actually living on this last piece of land, which used to be Equador, were kicked barbarously into the water by the mafia to fend for themselves. </p>     
       
 
 
