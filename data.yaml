@@ -45,10 +45,10 @@ questions:
       - text: Everyday
         points: 2
         story:
-          "<h1>Quick And Easy Seven Eyed Salmon</h1>
-          <img src=images/fish.jpg>
+          '<h1>Quick And Easy Seven Eyed Salmon</h1>
+          <a href="http://www.rantpets.com/2015/05/21/these-pictures-of-deformed-fish-will-make-you-realize-how-bad-pollution-really-is/"><img src=images/fish.jpg></a>
           <p>This delicious dish is ready in less than 30 minutes! Cool sea grass salsa pairs perfectly with the delicious Seven Eyed Salmon. For a sandwich option, serve fish and salsa in sun dried fish skin pockets.</p>
-          <p>Pro tip: Be sophisticated and use the eyes only on top of a sea horse chutney!</p>"
+          <p>Pro tip: Be sophisticated and use the eyes only on top of a sea horse chutney!</p>'
 
   - prompt:
       How much space do you have for yourself in your home?   
