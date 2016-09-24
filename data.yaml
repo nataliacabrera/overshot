@@ -1,6 +1,50 @@
 
-How many items?:
-  10-25:
-  2-3:
+intro: 
+  <h1>Welcome!</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>
+
+  <p>Vestibulum laoreet neque quis bibendum rutrum. Nullam orci eros, eleifend id imperdiet id, aliquet eu sem. Aliquam vestibulum metus orci, ut semper mi posuere a. Duis eget ipsum sed metus efficitur finibus. Aliquam vitae aliquam ante. Suspendisse vitae lacus nec augue sollicitudin gravida. Praesent rutrum viverra sollicitudin. Nunc viverra ullamcorper odio sit amet finibus.</p>
+
+  <a href=#q0>Start</a>
+
+
+questions:
+
+  - prompt:
+      How many devices?
+    answers:
+      - text: 0
+        points: 0
+        story:
+          <p>You have no devices</p>
+      - text:  2-3
+        points: 1
+        story:
+          <p>You have many devices</p>
+
+  - prompt:
+      What kind of car do you have?
+    answers:
+      - text: Prius
+        points: 0
+        story:
+          <p>You have nice transport</p>
+      - text:  Corvette
+        points: 1
+        story:
+          <p>You have bad transport</p>
+
+
+end:
+  <h1>We have generated the following newspaper for you</h1>
+
+main story:
+  10:
+    <h1>This is bad</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>
+
+  20:
+    <h1>This is worse</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>
 
 

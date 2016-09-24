@@ -18,7 +18,7 @@ gulp.task('js', () => {
   return browserify({entries: ['./js/main.js']})
   .transform(yamlify)
   .bundle()
-  .on('error', console.error.bind(console))
+  .on('error', onError)
   .pipe(source('./main.js'))
   .pipe(gulp.dest('.'))
   .pipe(reload({stream: true}));
@@ -28,7 +28,7 @@ gulp.task('js', () => {
 gulp.task('less', () => {
   return gulp.src('./css/main.less')
     .pipe(less({paths: [ './css' ]}))
-    .on('error', console.error.bind(console))
+    .on('error', onError)
 		.pipe(autoprefixer({
 			browsers: ['last 2 versions'],
 			cascade: false
@@ -37,13 +37,19 @@ gulp.task('less', () => {
     .pipe(reload({stream: true}));
 });
 
-
+function onError(err) {
+  console.log(err);
+  this.emit('end');
+}
 
 gulp.task('serve', ['js', 'less'], () => {
   browserSync({server: {baseDir: '.'}});
 
-  gulp.watch('/index.html').on('change', browserSync.reload);
-  gulp.watch('./app/**/*.less', ['less']);
+  gulp.watch('./index.html').on('change', () =>{
+    console.log('wtf');
+    reload()
+  });
+  gulp.watch('./css/**/*.less', ['less']);
   gulp.watch(['./js/**/*.js','./data.yaml'], ['js']);
 });
 
