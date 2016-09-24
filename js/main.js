@@ -61,11 +61,10 @@ function showEnd(answers) {
   console.log({answers, score});
   html += '<div class=score>your score: ' + score + '</div>';
 
-  // data['main story'].find(function(object) {
+  html += data['main story'].find(function(option) {
+    if (score > option.max)
+  });
 
-  // });
-
-  // html += 
 
   answers.forEach(function(a,i) {
     html += data.questions[i].answers[a].story

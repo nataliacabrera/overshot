@@ -98,12 +98,12 @@ end:
   <p>Click or hover over a story to find out more about it</p>
   
 main story:
-  - max: 2
+  - points: 0
     html:
       <h1>This is bad</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>
 
-  - max: 5
+  - points: 5
     html:
       <h1>This is worse</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>
