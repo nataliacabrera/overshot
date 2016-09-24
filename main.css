@@ -8,6 +8,10 @@ body#intro {
   max-width: 600px;
   margin: auto;
 }
+body#intro p {
+  font-size: 2em;
+  margin-top: 6em;
+}
 body#question {
   max-width: 600px;
   margin: auto;

@@ -1,5 +1,5 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-module.exports = {"intro":"<h1>Welcome!</h1> <p>Earth Overshoot Day is the date on which humanity’s resource consumption for the year exceeds Earth’s capacity to regenerate those resources that year..</p>\n<p>The effects of this are worrying – climate change, shrinking forests, species loss, collapsing fisheries, higher commodity prices and civil unrest. </p>\n<p>If we keep consuming, data shows us on track to require the resources of two planets well before mid-2000-century.</p>\n<p>Click to answer 5 questions to find out what the world in 2040 would look like if everyone was just like you.</p>\n<a href=#q>Start</a>","questions":[{"prompt":"How many devices?","answers":[{"text":0,"points":0,"story":"<p>You have no devices</p>"},{"text":"2-3","points":1,"story":"<p>You have many devices</p>"}]},{"prompt":"What kind of car do you have?","answers":[{"text":"Prius","points":0,"story":"<p>You have nice transport</p>"},{"text":"Corvette","points":1,"story":"<p>You have bad transport</p>"}]}],"end":"<h1>We have generated the following newspaper for you</h1>","main story":{"10":"<h1>This is bad</h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>","20":"<h1>This is worse</h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>"}};
+module.exports = {"intro":"<h1>Welcome!</h1> <p>Earth Overshoot Day is the date on which humanity’s resource consumption for the year exceeds Earth’s capacity to regenerate those resources that year..</p>\n<p>The effects of this are worrying – climate change, shrinking forests, species loss, collapsing fisheries, higher commodity prices and civil unrest. </p>\n<p>If we keep consuming, data shows us on track to require the resources of two planets well before mid-2000-century.</p>\n<p>Click to answer 5 questions to find out what the world in 2040 would look like if everyone was just like you and when your Earth Overshoot Day would be.</p>\n<a href=#q>Start</a>","questions":[{"prompt":"How many portable devices (mobile phones, laptops, tablets etc) do you own?","answers":[{"text":"0 - 1","points":0,"story":"<p>You have no devices</p>"},{"text":"2 - 5","points":1,"story":"<p>You have many devices</p>"},{"text":"more than 5","points":2,"story":"<p>You have SO SO many devices</p>"}]},{"prompt":"How many times a week do you eat meat?","answers":[{"text":"Never","points":0,"story":"<p>You are a vegetarian</p>"},{"text":"Not everyday","points":1,"story":"<p>You sometimes eat meat</p>"},{"text":"Everyday","points":2,"story":"<p>You always meat</p>"}]},{"prompt":"In your home, how square meters do you have for yourself?","answers":[{"text":"Around 15 m2 (about one room)","points":0,"story":"<p>You live in a bedsit</p>"},{"text":"Around 15 - 30 m2 (a couple of rooms)","points":1,"story":"<p>You have your own flat</p>"},{"text":"Over 40 m2 (a house)","points":2,"story":"<p>You own a house</p>"}]},{"prompt":"How many new items (for example fashion, furnishing, lifestyle) do buy on a month?","answers":[{"text":"0 - 10 items","points":0,"story":"<p>You dont buy that much</p>"},{"text":"11 to 25 items","points":1,"story":"<p>You buy some stuff</p>"},{"text":"Over 26 items","points":2,"story":"<p>You buy so much!</p>"}]},{"prompt":"How do you mostly get around?","answers":[{"text":"Walking or biking","points":0,"story":"<p>You walk</p>"},{"text":"Public transport","points":1,"story":"<p>You take public transport</p>"},{"text":"Car","points":2,"story":"<p>You drive</p>"}]}],"end":"<h1>We have generated the following newspaper for you</h1>","main story":{"10":"<h1>This is bad</h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>","20":"<h1>This is worse</h1> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet ex congue, egestas tortor nec, sodales dolor. Aliquam laoreet imperdiet massa. Curabitur odio neque, porta sed elit rutrum, imperdiet bibendum mi. Cras viverra odio id pulvinar commodo. Praesent volutpat ipsum quis congue luctus. Nulla sagittis enim id ex suscipit, non varius lectus mattis. Quisque molestie tellus ex, porttitor blandit nunc pulvinar eu. In vitae consequat lectus. Nullam imperdiet est risus, nec accumsan eros fringilla tincidunt. Ut et dolor quam. Praesent in libero lacus. Aliquam vel consequat nunc. Sed faucibus hendrerit velit eu varius. Cras eu aliquet justo. Nulla tincidunt placerat erat, sit amet gravida nunc accumsan vitae.</p>"}};
 },{}],2:[function(require,module,exports){
 var $ = require('jquery');
 var _ = require('underscore');
@@ -19,7 +19,8 @@ $(document).on('click', 'a', function(e) {
 
 
 function update() {
-  var answers = _(location.hash.slice(2).split(',')).compact();
+  var answers = _(location.hash.slice(2).split(',')).compact()
+  answers = answers.map(function(a) { return a * 1; });
   console.log('UPDATE', answers);
 
   if (location.hash == '')
@@ -27,7 +28,7 @@ function update() {
   else if (answers.length < data.questions.length)
     showQuestion(answers.length);
   else if (answers.length >= data.questions.length)
-    showEnd();
+    showEnd(answers);
   else
     showIntro();
 }
@@ -54,11 +55,18 @@ function showQuestion(index) {
 }
 
 
-function showEnd() {
-  $(document.body).html(data.end);
+function showEnd(answers) {
+  var html = data.end
+
+  var score = answers.reduce(function(sum,a,i) {
+    return sum + data.questions[i].answers[a].points
+  },0);
+  console.log({answers, score});
+  html += '<div class=score>your score ' + score + '</div>';
+
+  $(document.body).html(html);
   document.body.id = 'end';
 }
-
 
 
 },{"../data.yaml":1,"jquery":3,"underscore":4}],3:[function(require,module,exports){

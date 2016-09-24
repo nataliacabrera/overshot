@@ -25,9 +25,9 @@ questions:
         points: 1
         story:
           <p>You have many devices</p>
-     - text: more than 5
-            points: 2
-            story:
+      - text: more than 5
+        points: 2
+        story:
           <p>You have SO SO many devices</p>
   - prompt:
       How many times a week do you eat meat?
@@ -59,8 +59,8 @@ questions:
         points: 2
         story:
           <p>You own a house</p>
-            - prompt:
-  How many new items (for example fashion, furnishing, lifestyle) do buy on a month?
+  - prompt:
+      How many new items (for example fashion, furnishing, lifestyle) do buy on a month?
     answers:
       - text: 0 - 10 items
         points: 0
@@ -74,7 +74,9 @@ questions:
         points: 2
         story:
           <p>You buy so much!</p>
-  How do you mostly get around?
+
+  - prompt:
+      How do you mostly get around?
     answers:
       - text: Walking or biking
         points: 0
@@ -88,10 +90,6 @@ questions:
         points: 2
         story:
           <p>You drive</p>
-
-
-
-
 
 end:
   <h1>We have generated the following newspaper for you</h1>

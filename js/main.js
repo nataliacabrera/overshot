@@ -16,7 +16,8 @@ $(document).on('click', 'a', function(e) {
 
 
 function update() {
-  var answers = _(location.hash.slice(2).split(',')).compact();
+  var answers = _(location.hash.slice(2).split(',')).compact()
+  answers = answers.map(function(a) { return a * 1; });
   console.log('UPDATE', answers);
 
   if (location.hash == '')
@@ -24,7 +25,7 @@ function update() {
   else if (answers.length < data.questions.length)
     showQuestion(answers.length);
   else if (answers.length >= data.questions.length)
-    showEnd();
+    showEnd(answers);
   else
     showIntro();
 }
@@ -51,9 +52,16 @@ function showQuestion(index) {
 }
 
 
-function showEnd() {
-  $(document.body).html(data.end);
+function showEnd(answers) {
+  var html = data.end
+
+  var score = answers.reduce(function(sum,a,i) {
+    return sum + data.questions[i].answers[a].points
+  },0);
+  console.log({answers, score});
+  html += '<div class=score>your score ' + score + '</div>';
+
+  $(document.body).html(html);
   document.body.id = 'end';
 }
-
 
