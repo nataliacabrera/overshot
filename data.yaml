@@ -1,6 +1,7 @@
 
 intro: 
-  <h1>Welcome!</h1>
+  <h1>Earth Overshoot</h1>
+  
   <p>Earth Overshoot Day is the date on which humanity’s resource consumption for the year exceeds Earth’s capacity to regenerate those resources that year..</p>
 
   <p>The effects of this are worrying – climate change, shrinking forests, species loss, collapsing fisheries, higher commodity prices and civil unrest. </p>
@@ -92,8 +93,10 @@ questions:
           <p>You drive</p>
 
 end:
-  <h1>We have generated the following newspaper for you</h1>
-
+  <h1>This is what the world would look like</h1>
+  
+  <p>Click or hover over a story to find out more about it</p>
+  
 main story:
   10:
     <h1>This is bad</h1>
