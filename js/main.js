@@ -4,10 +4,13 @@ var data = require('../data.yaml');
 
 $(update);
 
-$(window).on('popstate', update);
+$(window).on('popstate', function() {
+  update();
+  $('.modal').remove();
+});
 
 $(document).on('click', 'a', function(e) {
-  if (e.target.hostname = location.hostname) {
+  if (e.target.hostname === location.hostname) {
     e.preventDefault();
     setHash(e.target.hash);
     update();
@@ -65,7 +68,8 @@ function showQuestion(index) {
 
 function showEnd() {
   var answers = parseHash();
-  var html = data.end
+  var html = data['end modal'];
+  html += '<header>' + data.end + '</header>';
 
   html += '<main></main>'
 
@@ -101,12 +105,15 @@ function buildNewspaper() {
   html += '<article class=main>' + main.html + '</article>';
 
   answers.forEach(function(a,i) {
-    html += '<article>' + data.questions[i].answers[a].story + '</article>';
+    html += '<article class=question' + i + '>' + data.questions[i].answers[a].story + '</article>';
   });
 
   $('main').html(html);
 }
 
+$(document).on('click', 'body#end .modal', function(e) {
+  $('.modal').remove();
+});
 
 $(document).on('click', 'body#end .changer h2', function(e) {
   if ($(e.target).is('.close'))

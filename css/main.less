@@ -35,10 +35,47 @@ body#question {
 body#end {
   margin: 0;
 
+  div.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  div.modal .message {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 2em;
+  }
+
+
+
+  header {
+    padding: 1rem;
+  }
+
+  img.nyt {
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+
+  .date {
+    text-align: center;
+    font-family: Georgia, sans-serif;
+  }
+
   main {
     min-height: 100vh;
     padding: 1rem;
-    background: #ccc;
     font-size: 1.3em;
     display: flex;
     flex-flow: row wrap;
@@ -54,6 +91,13 @@ body#end {
     }
 
     article.main {
+      flex-basis: 60%;
+    }
+    
+    article.question0 {
+      display: none;
+    }
+    article.question2 {
       flex-basis: 60%;
     }
 
@@ -76,6 +120,8 @@ body#end {
     background: white;
     max-width: 500px;
     padding: 0.5rem;
+    background: #ddd;
+    border-bottom-left-radius: 0.5rem;
   }
 
   .changer .questions {
