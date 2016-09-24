@@ -30,6 +30,7 @@ questions:
         points: 2
         story:
           <p>You have SO SO many devices</p>
+
   - prompt:
       How many times a week do you eat meat?
     answers:
@@ -43,10 +44,11 @@ questions:
           <p>You sometimes eat meat</p>
       - text: Everyday
         points: 2
-          <h1>Quick And Easy Seven Eyed Salmon</h1>
+        story:
+          "<h1>Quick And Easy Seven Eyed Salmon</h1>
           <p>This delicious dish is ready in less than 30 minutes! Cool sea grass salsa pairs perfectly with the delicious Seven Eyed Salmon. For a sandwich option, serve fish and salsa in sun dried fish skin pockets.</p>
-          <p>Pro tip: Be sophisticated and use the eyes only on top of a sea horse chutney!</p>
-   
+          <p>Pro tip: Be sophisticated and use the eyes only on top of a sea horse chutney!</p>"
+
   - prompt:
       How much space do you have for yourself in your home?   
     answers:
@@ -98,10 +100,6 @@ end:
   <h1>This is a snapshot of what the world would look like on your Earth Overshoot Day in 2040 if everyone acted like you</h1>
   
   <p>Click or hover over a story to find out more</p>
-        story:
-          <p>You always meat</p>
-  - prompt:
-      In your home, how square meters do you have for yourself?
   
 main story:
   - points: 0

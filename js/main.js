@@ -1,5 +1,5 @@
-var $ = require('jquery');
-var _ = require('underscore');
+window.$ = require('jquery');
+window._ = require('underscore');
 var data = require('../data.yaml');
 
 $(update);
@@ -9,16 +9,14 @@ $(window).on('popstate', update);
 $(document).on('click', 'a', function(e) {
   if (e.target.hostname = location.hostname) {
     e.preventDefault();
-    location.hash = e.target.hash
+    setHash(e.target.hash);
     update();
   }
 });
 
 
 function update() {
-  var answers = _(location.hash.slice(2).split(',')).compact()
-  answers = answers.map(function(a) { return a * 1; });
-  console.log('UPDATE', answers);
+  var answers = parseHash();
 
   if (location.hash == '')
     showIntro();
@@ -30,6 +28,20 @@ function update() {
     showIntro();
 }
 
+function setHash(hash) {
+  history.replaceState(undefined, undefined, location.pathname + hash);
+}
+
+function parseHash() {
+  var answers = _(location.hash.slice(2).split(',')).compact();
+  return answers.map(function(a) { return a * 1; });
+}
+
+function score() {
+  return parseHash().reduce(function(sum,a,i) {
+    return sum + data.questions[i].answers[a].points
+  },0);
+};
 
 function showIntro() {
   $(document.body).html(data.intro);
@@ -39,7 +51,6 @@ function showIntro() {
 
 function showQuestion(index) {
   let question = data.questions[index]
-  console.log({question});
   var html = '<h1>' + question.prompt + '</h1>';
   var base = location.hash;
   if (base.length > 2)
@@ -52,24 +63,62 @@ function showQuestion(index) {
 }
 
 
-function showEnd(answers) {
+function showEnd() {
+  var answers = parseHash();
   var html = data.end
 
-  var score = answers.reduce(function(sum,a,i) {
-    return sum + data.questions[i].answers[a].points
-  },0);
+  html += '<main></main>'
 
-  html += '<div class=score>your score: ' + score + '</div>';
-
-  html += data['main story'].find(function(option) {
-    return score > option.points;
-  }).html;
-
-  answers.forEach(function(a,i) {
-    html += data.questions[i].answers[a].story
-  });
+  html += '<div class="questions closed"><h2 class=change>Change my answers<h2><div class=close>&times;</div>'
+  html += data.questions.map(function(q, i) {
+    return (
+      '<h4>' + q.prompt + '</h3>' +
+      '<select>' +
+        q.answers.map(function(a, j) {
+          if (answers[i] === j)
+            return '<option selected value=' + j + '>' + a.text + '</option>';
+          else
+            return '<option value=' + j + '>' + a.text + '</option>';
+        }).join('') +
+      '</select>'
+    );
+  }).join('');
+  html += '</div>';
 
   $(document.body).html(html);
   document.body.id = 'end';
+  buildNewspaper();
 }
+
+function buildNewspaper() {
+  var html = '';
+  var answers = parseHash();
+
+  var main = data['main story'].slice().reverse().find(function(option) {
+    return score() >= option.points;
+  });
+  main = main || _(data['main story']).last();
+  html += '<article class=main>' + main.html + '</article>';
+
+  answers.forEach(function(a,i) {
+    html += '<article>' + data.questions[i].answers[a].story + '</article>';
+  });
+
+  $('main').html(html);
+}
+
+
+$(document).on('click', 'body#end .change', function(e) {
+  $('.questions').removeClass('closed');
+});
+
+$(document).on('click', 'body#end .close', function(e) {
+  $('.questions').addClass('closed');
+});
+
+$(document).on('change', 'select', function(e) {
+  setHash('#q' + _($('select')).map(el => el.value).join());
+  buildNewspaper();
+});
+
 
