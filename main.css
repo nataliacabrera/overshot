@@ -3,6 +3,7 @@ html {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   color: #333;
+  box-sizing: border-box;
 }
 body#intro {
   max-width: 600px;
@@ -35,8 +36,10 @@ body#end div.modal {
   cursor: pointer;
 }
 body#end div.modal .message {
+  box-sizing: border-box;
   position: absolute;
-  width: 50%;
+  width: calc(100% - 2rem);
+  max-width: 400px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -54,6 +57,11 @@ body#end img.nyt {
 body#end .date {
   text-align: center;
   font-family: Georgia, sans-serif;
+}
+@media (max-width: 500px) {
+  body#end main {
+    display: block !important;
+  }
 }
 body#end main {
   min-height: 100vh;

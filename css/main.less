@@ -4,6 +4,7 @@ html {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   color: #333;
+  box-sizing: border-box;
 }
 
 
@@ -47,8 +48,10 @@ body#end {
   }
 
   div.modal .message {
+    box-sizing: border-box;
     position: absolute;
-    width: 50%;
+    width: ~'calc(100% - 2rem)';
+    max-width: 400px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -71,6 +74,12 @@ body#end {
   .date {
     text-align: center;
     font-family: Georgia, sans-serif;
+  }
+
+  @media (max-width: 500px) {
+    main {
+      display: block !important;
+    }
   }
 
   main {
