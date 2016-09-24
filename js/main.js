@@ -58,13 +58,12 @@ function showEnd(answers) {
   var score = answers.reduce(function(sum,a,i) {
     return sum + data.questions[i].answers[a].points
   },0);
-  console.log({answers, score});
+
   html += '<div class=score>your score: ' + score + '</div>';
 
   html += data['main story'].find(function(option) {
-    if (score > option.max)
-  });
-
+    return score > option.points;
+  }).html;
 
   answers.forEach(function(a,i) {
     html += data.questions[i].answers[a].story
