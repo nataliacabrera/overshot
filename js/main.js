@@ -69,10 +69,10 @@ function showEnd() {
 
   html += '<main></main>'
 
-  html += '<div class="questions closed"><h2 class=change>Change my answers<h2><div class=close>&times;</div>'
+  html += '<div class=changer><h2>Change my answers</h2><div class=close>&times;</div><div class=questions>'
   html += data.questions.map(function(q, i) {
     return (
-      '<h4>' + q.prompt + '</h3>' +
+      '<h3>' + q.prompt + '</h3>' +
       '<select>' +
         q.answers.map(function(a, j) {
           if (answers[i] === j)
@@ -83,7 +83,7 @@ function showEnd() {
       '</select>'
     );
   }).join('');
-  html += '</div>';
+  html += '</div></div>';
 
   $(document.body).html(html);
   document.body.id = 'end';
@@ -108,12 +108,14 @@ function buildNewspaper() {
 }
 
 
-$(document).on('click', 'body#end .change', function(e) {
-  $('.questions').removeClass('closed');
+$(document).on('click', 'body#end .changer h2', function(e) {
+  if ($(e.target).is('.close'))
+    return;
+  $('.changer').addClass('active');
 });
 
 $(document).on('click', 'body#end .close', function(e) {
-  $('.questions').addClass('closed');
+  $('.changer').removeClass('active');
 });
 
 $(document).on('change', 'select', function(e) {

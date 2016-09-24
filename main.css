@@ -25,6 +25,7 @@ body#end {
   margin: 0;
 }
 body#end main {
+  min-height: 100vh;
   padding: 1rem;
   background: #ccc;
   font-size: 1.3em;
@@ -39,6 +40,7 @@ body#end main h3,
 body#end main h4,
 body#end main h5,
 body#end main h6 {
+  letter-spacing: 0.05em;
   font-family: 'Abril Fatface', sans-serif;
 }
 body#end main article {
@@ -50,24 +52,30 @@ body#end main article.main {
   -ms-flex-preferred-size: 60%;
   flex-basis: 60%;
 }
+body#end main article img {
+  display: block;
+  width: 100%;
+}
 body#end main p {
   font-family: Georgia, sans-serif;
 }
-body#end .questions {
+body#end .changer {
   position: fixed;
   top: 0;
   right: 0;
   font-size: 1.2em;
   background: white;
   max-width: 500px;
-  padding: 1em;
+  padding: 0.5rem;
 }
-body#end .questions.closed {
-  height: 2rem;
-  overflow: hidden;
+body#end .changer .questions {
+  display: none;
 }
-body#end .questions .change {
-  font-size: 1em;
+body#end .changer.active .questions {
+  display: block;
+}
+body#end .changer h2 {
+  font-size: 1.2em;
   margin: 0;
   cursor: pointer;
   -webkit-user-select: none;
@@ -75,19 +83,22 @@ body#end .questions .change {
   -ms-user-select: none;
   user-select: none;
 }
-body#end .questions .close {
+body#end .changer .close {
+  display: none;
   position: absolute;
-  top: 1rem;
-  right: 1rem;
-  line-height: 1;
+  font-size: 1.5em;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  line-height: 0.5;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
-body#end .questions.closed .close {
-  display: none;
+body#end .changer.active .close {
+  display: block;
 }
 a {
   text-decoration: none;
