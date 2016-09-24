@@ -3,6 +3,7 @@ html {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   background: #c39d55;
+  color: #333;
 }
 body#intro {
   max-width: 600px;
@@ -15,4 +16,16 @@ body#intro p {
 body#question {
   max-width: 600px;
   margin: auto;
+}
+body#question a {
+  display: inline-block;
+  font-size: 2em;
+  margin: 1em 2em 0;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #8a240f;
 }

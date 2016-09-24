@@ -59,7 +59,17 @@ function showEnd(answers) {
     return sum + data.questions[i].answers[a].points
   },0);
   console.log({answers, score});
-  html += '<div class=score>your score ' + score + '</div>';
+  html += '<div class=score>your score: ' + score + '</div>';
+
+  // data['main story'].find(function(object) {
+
+  // });
+
+  // html += 
+
+  answers.forEach(function(a,i) {
+    html += data.questions[i].answers[a].story
+  });
 
   $(document.body).html(html);
   document.body.id = 'end';
