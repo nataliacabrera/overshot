@@ -25,7 +25,12 @@ questions:
       - text: 2 - 5
         points: 1
         story:
-          ''
+           '<h1>Energy Police Shuts Down Beauty Salons</h1>
+           <img src = "http://estaticos02.elmundo.es/elmundo/imagenes/2010/08/11/baleares/1281465410_extras_ladillos_2_0.jpg">
+           <p>By CHRISTOPHER MELER and NIRAJ CHOKSHICK</p>
+           <p>In an attempt to conserve the last remaining energy supplies in the United States, the Energy Police have shut down all beauty salons citing excessive use of water and heat. This is fifth industry to be hit by the recent regulation that bans “frivolous” use of energy, after the high profile shutdown of the aviation business.</p>
+           <p>Housewife Sylvia B., 45, said “It was somehow ok when they forced me washing my dishes by hand, but I really don’t know how to sleek my hair manually”.</p>'
+
       - text: more than 5
         points: 2
         story:
@@ -45,7 +50,11 @@ questions:
       - text: Not everyday
         points: 1
         story:
-          <p>You sometimes eat meat</p>
+          <h1></h1>
+          <img src=>
+          <a href ="http://www.seriouseats.com/2011/07/the-nasty-bits-jellyfish.html">
+          <p>By KERRY HENG</p>
+          <p></p>
       - text: Everyday
         points: 2
         story:
@@ -66,7 +75,8 @@ questions:
       - text: Around 15 - 30 m2 (a couple of rooms)
         points: 1
         story:
-          <p>You have your own flat</p>
+          '<img src=images/Advert_3d_organs.gif>
+          <a href="https://www.ted.com/talks/anthony_atala_printing_a_human_kidney?language=en"></a>'
       - text: Over 40 m2 (a house) 
         points: 2
         story:
@@ -84,7 +94,11 @@ questions:
       - text: 11 to 25 items
         points: 1
         story:
-          <p>You buy some stuff</p>
+          '<h1></h1>
+          <img src=>
+          <a href="http://www.ecouterre.com/grow-your-own-microbial-leather-in-your-kitchen-diy-tutorial/">
+          <p>By NAOMI KAMALANI</p>
+          <p></p>'
       - text: Over 26 items
         points: 2
         story:
@@ -104,6 +118,10 @@ questions:
       - text: Public transport
         points: 1
         story:
+          <h1>Electric Car</h1>
+          <img src=>
+          <a href = "https://www.sciencedaily.com/releases/2014/11/141103114045.htm">
+          <p>By PAT BRETT</p>
           <p>You take public transport</p>
       - text: Car
         points: 2
@@ -135,17 +153,12 @@ main story:
 
   - points: 3
     html:
-      <h1>Energy Police Shuts Down Beauty Salons</h1>
-      <a href = "http://www.nature.com/nature/journal/v481/n7382/full/481433a.html"> </a>
-      <img src = "http://estaticos02.elmundo.es/elmundo/imagenes/2010/08/11/baleares/1281465410_extras_ladillos_2_0.jpg">
-      <p>By CHRISTOPHER MELER and NIRAJ CHOKSHICK</p>
-      <p>In an attempt to conserve the last remaining energy supplies in the United States, the Energy Police have shut down all beauty salons citing excessive use of water and heat. This is fifth industry to be hit by the recent regulation that bans “frivolous” use of energy, after the high profile shutdown of the aviation business.</p>
-      <p>Housewife Sylvia B., 45, said “It was somehow ok when they forced me washing my dishes by hand, but I really don’t know how to sleek my hair manually”.</p>
 
       
   - points: 4
     html:
       <h1>Woman Kills Pedestrian In Order to Charge Phone</h1>
+      <a href = "http://www.nature.com/nature/journal/v481/n7382/full/481433a.html"> </a>
       <p>By KAREN WORKMAN and MERRILL D. OLIVER</p>
       <p>7:55 AM ET</p>
       <p>A terrible attack took place this Monday Morning in Central Park. Witnesses saw a woman in mental crisis kill 26 year old teacher Charles B. to get his phone. After deeper investigation the police are not sure if this attack was to get access to a charged phone or if the woman is part of the Energy Terrorist Ring trying to take over all the existing energy on earth.</p>
