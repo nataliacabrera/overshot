@@ -94,7 +94,7 @@ function showEnd() {
     }).join('') + '</select>';
   }).join('');
 
-  var html = '\n    ' + data['end modal'] + '\n    <header>\n      <img class=nyt src=images/NYTheader.jpg>\n      <div class=date>July 1, 2040</div>\n    </header>\n    <main></main>\n    <img class=nyt src=images/NYTbottom.png>\n    <div class=changer>\n      <h2>Change my answers</h2>\n      <div class=close>&times;</div>\n      <div class=questions>' + questions + '</div>\n    </div>\n  ';
+  var html = '\n    ' + data['end modal'] + '\n    <header>\n      <img class=nyt src=images/NYTheader.jpg>\n      <div class=top-date>July 1, 2040</div>\n    </header>\n    <main></main>\n    <img class=nyt src=images/NYTbottom.png>\n    <div class=changer>\n      <h2>Change my answers</h2>\n      <div class=close>&times;</div>\n      <div class=questions>' + questions + '</div>\n    </div>\n  ';
 
   $(document.body).html(html);
   buildNewspaper();

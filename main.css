@@ -62,11 +62,10 @@ body#end div.modal .message {
   padding: 2em;
 }
 body#end img.nyt {
-  width: 100%;
   display: block;
-  margin: 0;
+  width: 100%;
 }
-body#end .date {
+body#end .top-date {
   text-align: center;
   font-family: Georgia, sans-serif;
 }
@@ -84,34 +83,40 @@ body#end main {
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
 }
-body#end main h1,
-body#end main h2,
-body#end main h3,
-body#end main h4,
-body#end main h5,
-body#end main h6 {
+body#end h1,
+body#end h2,
+body#end h3,
+body#end h4,
+body#end h5,
+body#end h6 {
   letter-spacing: 0.05em;
   font-family: 'Abril Fatface', sans-serif;
 }
-body#end main article {
+body#end article {
   -ms-flex: 0 0 30%;
   flex: 0 0 30%;
   margin: 1rem;
 }
-body#end main article.main {
+body#end article.main {
   -ms-flex-preferred-size: 60%;
   flex-basis: 60%;
 }
-body#end main article.question2 {
+body#end article.question2 {
+  -ms-flex-order: 0;
+  order: 0;
   -ms-flex-preferred-size: 60%;
   flex-basis: 60%;
 }
-body#end main article img {
+body#end article img {
   display: block;
   width: 100%;
 }
-body#end main p {
+body#end p {
   font-family: Georgia, sans-serif;
+}
+body#end p.byline {
+  font-size: .8em;
+  color: #888;
 }
 body#end .changer {
   position: fixed;

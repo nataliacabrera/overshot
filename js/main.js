@@ -124,7 +124,7 @@ function showEnd() {
     ${data['end modal']}
     <header>
       <img class=nyt src=images/NYTheader.jpg>
-      <div class=date>July 1, 2040</div>
+      <div class=top-date>July 1, 2040</div>
     </header>
     <main></main>
     <img class=nyt src=images/NYTbottom.png>
