@@ -29,7 +29,7 @@ questions:
       - text: more than 5
         points: 2
         story:
-          ''
+          '<p></p>'
 
   - prompt:
       How many times a week do you eat meat?
@@ -46,7 +46,7 @@ questions:
         points: 2
         story:
           '<h1>Quick And Easy Seven Eyed Salmon</h1>
-          <a href="http://www.rantpets.com/2015/05/21/these-pictures-of-deformed-fish-will-make-you-realize-how-bad-pollution-really-is/"><img src=images/fish.jpg></a>
+          <a href="https://www.southernenvironment.org/news-and-press/press-releases/duke-energy-coal-ash-pollution-deforms-fish-in-sutton-lake"><img src=images/Receipe_GIF.gif></a>
           <p>By CAHAYA CYRILLE</p>
           <p>This delicious dish is ready in less than 30 minutes! Cool sea grass salsa pairs perfectly with the delicious Seven Eyed Salmon. For a sandwich option, serve fish and salsa in sun dried fish skin pockets.</p>
           <p>Pro tip: Be sophisticated and use the eyes only on top of a sea horse chutney!</p>'
@@ -65,7 +65,8 @@ questions:
       - text: Over 40 m2 (a house) 
         points: 2
         story:
-          <img src=images/floatinghousead.jpg>
+          '<img src=images/floatinghousead-01.gif>
+          <a href="https://www.architectural-review.com/archive/rebuilding-our-cities-in-a-world-facing-flooding/8659950.article"></a>'
 
 
   - prompt:
@@ -84,6 +85,7 @@ questions:
         story:
           '<h1>Pre Flood Fashion Revival</h1>
           <img src=images/seweed_dress.jpg>
+          <a href ="http://www.peta.org/living/fashion/8-awesome-alternatives-wool/"></a>
           <p>By ADELA SULIMAN</p>
           <p>Pre flood fashion is the big trend this season! Designer Rachel T brings back the old world in her new collection, despite its lack of practicality in the today’s water based society. It reminds us of passed times - sitting in the streets of Paris or New York with a cup of coffee and a croissant. This kind of nostalgia reflects in her looks - contemporary natural nautical materials flirt with these valuable items produced on land.</p>'
 
@@ -101,10 +103,11 @@ questions:
       - text: Car
         points: 2
         story:
-          <h1>Seaweed Harvesting Devices </h1>
+          '<h1>Seaweed Harvesting Devices </h1>
+          <img src=images/seaweed.gif> 
           <a href = "http://www.theatlantic.com/international/archive/2011/11/the-coming-green-wave-ocean-farming-to-fight-climate-change/248750/"></a>
           <p>By MARK LANDLER and NOAH WEILAND</p>
-          <p>Seaweed harvesting devices are becoming an increasingly important lifestyle choice.  Scientists have been working on solutions to provide vitamins to replace vegetables and fruits that can now no longer be grown. This new seaweed harvesting devices which helps you keeping up your vitamin household on a pre-flood level.</p>
+          <p>Seaweed harvesting devices are becoming an increasingly important lifestyle choice.  Scientists have been working on solutions to provide vitamins to replace vegetables and fruits that can now no longer be grown. This new seaweed harvesting devices which helps you keeping up your vitamin household on a pre-flood level.</p>'
 
 end modal:
   <div class=modal>
@@ -128,6 +131,7 @@ main story:
   - points: 3
     html:
       <h1>Energy Police Shuts Down Beauty Salons</h1>
+      <a href = "http://www.nature.com/nature/journal/v481/n7382/full/481433a.html"> </a>
       <img src = "http://estaticos02.elmundo.es/elmundo/imagenes/2010/08/11/baleares/1281465410_extras_ladillos_2_0.jpg">
       <p>By CHRISTOPHER MELER and NIRAJ CHOKSHICK</p>
       <p>In an attempt to conserve the last remaining energy supplies in the United States, the Energy Police have shut down all beauty salons citing excessive use of water and heat. This is fifth industry to be hit by the recent regulation that bans “frivolous” use of energy, after the high profile shutdown of the aviation business.</p>
@@ -144,6 +148,7 @@ main story:
   - points: 5
     html:
       <h1>Land Mafia Takes Over Last Island</h1>
+      <a href = "http://www.lloyds.com/~/media/files/news%20and%20insight/risk%20insight/2015/food%20system%20shock/food%20system%20shock_june%202015.pdf"></a>
       <img src=images/landmafia.jpg>
       <p>By ASHTON JERRY and RUDO NGOZI</p>
       <p>6:00 AM EST</p>
