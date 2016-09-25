@@ -31,8 +31,9 @@ questions:
            <p class=byline>By CHRISTOPHER MELER and NIRAJ CHOKSHICK</p>
            <p>In an attempt to conserve the last remaining energy supplies in the United States, the Energy Police have shut down all beauty salons citing excessive use of water and heat. This is fifth industry to be hit by the recent regulation that bans “frivolous” use of energy, after the high profile shutdown of the aviation business.</p>
            <p>Housewife Sylvia B., 45, said “It was somehow ok when they forced me washing my dishes by hand, but I really don’t know how to sleek my hair manually”.</p>
+           <p>  </p>
            <img src=images/NYTfiller.png>'
-      - text: more than 5
+      - text: More than 5
         points: 2
         story:
           '<h1><a href="http://www.bbc.com/future/story/20150616-what-happens-when-the-sea-swallows-a-country">
@@ -40,6 +41,7 @@ questions:
           <img src=images/UNheadquarterssky.jpg>
           <p class=byline>By RENE ARIEL</p>
           <p>The United Nations met today in their floating headquarters to discuss the implications of the recent attack. Diminished in influence due to the lack of land based nations, they condemned the attack. The UK Prime Minister (second from left in picture) called the LandMafia’s assault “an act of wanton terrorism”. </p>
+          <p></p>
           <img src=images/NYTfiller.png>'
 
   - prompt:
@@ -68,8 +70,11 @@ questions:
           </a></h1>
           <p class=byline>By CAHAYA CYRILLE</p>
           <p>This delicious dish is ready in less than 30 minutes! Cool sea grass salsa pairs perfectly with the delicious Seven Eyed Salmon. For a sandwich option, serve fish and salsa in sun dried fish skin pockets.</p>
-          <p>Pro tip: Be sophisticated and use the eyes only on top of a sea horse chutney!</p>'
-
+          <p>Pro tip: Be sophisticated and use the eyes only on top of a sea horse chutney!</p>
+          <p>Preparation</p>
+          <p>1. Preheat grill to 350º to 400º (medium-high) heat. Sprinkle salmon with pepper and 1/2 tsp. salt. </p>
+          <p>2. Grill fish, covered with grill lid, 3 to 4 minutes on each side or just until fish begins to flake when poked with the tip of a sharp knife and is opaque in center.</p>
+          <p>3. Combine chopped sea grass and the seven raw eyes, fry salmon skin. Serve with grilled fish.</p>'
   - prompt:
       How much space do you have for yourself in your home?   
     answers:
@@ -80,7 +85,7 @@ questions:
       - text: Around 15 - 30 m2 (a couple of rooms)
         points: 1
         story:
-          '<a href="https://www.ted.com/talks/anthony_atala_printing_a_human_kidney?language=en"><img src=images/organsgif.gif></a>'
+          '<a href="https://www.ted.com/talks/anthony_atala_printing_a_human_kidney?language=en"><img src=images/3dprintedorgan.gif></a>'
       - text: Over 40 m2 (a house) 
         points: 2
         story:
@@ -106,9 +111,9 @@ questions:
       - text: Over 26 items
         points: 2
         story:
-          '<h1>Pre Flood Fashion Revival</h1>
+          '<h1><a href ="http://www.peta.org/living/fashion/8-awesome-alternatives-wool/">
+          Pre Flood Fashion Revival</a></h1>
           <img src=images/seweed_dress.jpg>
-          <a href ="http://www.peta.org/living/fashion/8-awesome-alternatives-wool/"></a>
           <p class=byline>By ADELA SULIMAN</p>
           <p>Pre flood fashion is the big trend this season! Designer Rachel T brings back the old world in her new collection, despite its lack of practicality in the today’s water based society. It reminds us of passed times - sitting in the streets of Paris or New York with a cup of coffee and a croissant. This kind of nostalgia reflects in her looks - contemporary natural nautical materials flirt with these valuable items produced on land.</p>'
 
@@ -131,12 +136,12 @@ questions:
       - text: Car
         points: 2
         story:
-          '<h1>Seaweed Harvesting Devices </h1>
+          '<h1><a href = "http://www.theatlantic.com/international/archive/2011/11/the-coming-green-wave-ocean-farming-to-fight-climate-change/248750/">
+          Seaweed Harvesting Devices</a> </h1>
           <img src=images/seaweed.gif> 
-          <a href = "http://www.theatlantic.com/international/archive/2011/11/the-coming-green-wave-ocean-farming-to-fight-climate-change/248750/"></a>
           <p class=byline>By MARK LANDLER and NOAH WEILAND</p>
-          <p>Seaweed harvesting devices are becoming an increasingly important lifestyle choice.  Scientists have been working on solutions to provide vitamins to replace vegetables and fruits that can now no longer be grown. This new seaweed harvesting devices which helps you keeping up your vitamin household on a pre-flood level.</p>'
-
+          <p>Seaweed harvesting devices are becoming an increasingly important lifestyle choice.  Scientists have been working on solutions to provide vitamins to replace vegetables and fruits that can now no longer be grown. This new seaweed harvesting devices which helps you keeping up your vitamin household on a pre-flood level.</p>
+          <img src=images/seaweed_harvesting_NEW.jpg>'
 end modal:
   <div class=modal>
     <div class=message>
