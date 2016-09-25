@@ -65,47 +65,53 @@ body#end img.nyt {
   display: block;
   width: 100%;
 }
+body#end img.nyt-filler {
+  display: block;
+  width: 33%;
+}
 body#end .top-date {
   text-align: center;
   font-family: Georgia, sans-serif;
 }
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   body#end main {
     display: block !important;
   }
 }
 body#end main {
   min-height: 100vh;
-  padding: 1rem;
   font-size: 1.3em;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
-body#end h1,
-body#end h2,
-body#end h3,
-body#end h4,
-body#end h5,
-body#end h6 {
+body#end main h1,
+body#end main h2,
+body#end main h3,
+body#end main h4,
+body#end main h5,
+body#end main h6 {
   letter-spacing: 0.05em;
   font-family: 'Abril Fatface', sans-serif;
 }
 body#end article {
-  -ms-flex: 0 0 30%;
-  flex: 0 0 30%;
-  margin: 1rem;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 body#end article.main {
-  -ms-flex-preferred-size: 60%;
-  flex-basis: 60%;
+  -ms-flex-preferred-size: 66.6%;
+  flex-basis: 66.6%;
 }
 body#end article.question2 {
-  -ms-flex-order: 0;
-  order: 0;
-  -ms-flex-preferred-size: 60%;
-  flex-basis: 60%;
+  -ms-flex-order: -1;
+  order: -1;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
 }
 body#end article img {
   display: block;
@@ -117,6 +123,11 @@ body#end p {
 body#end p.byline {
   font-size: .8em;
   color: #888;
+  margin: 0.4rem 0;
+}
+body#end p.date {
+  font-size: .8em;
+  margin: 0;
 }
 body#end .changer {
   position: fixed;

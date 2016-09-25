@@ -124,7 +124,7 @@ function showEnd() {
     ${data['end modal']}
     <header>
       <img class=nyt src=images/NYTheader.jpg>
-      <div class=top-date>July 1, 2040</div>
+      <div class=top-date></div>
     </header>
     <main></main>
     <img class=nyt src=images/NYTbottom.png>
@@ -155,7 +155,12 @@ function buildNewspaper() {
     html += '<article class=question' + i + '>' + data.questions[i].answers[a].story + '</article>';
   });
 
+  html += '<img class=nyt-filler src=images/NYTfiller.png>';
+
   $('main').html(html);
+
+
+  $('.top-date').text('July 20, 2040');
 }
 
 
