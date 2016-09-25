@@ -110,7 +110,7 @@ function buildNewspaper() {
   var answers = parseHash();
 
   var main = data['main story'].slice().reverse().find(function (option) {
-    return score() >= option.points;
+    return score() > option.points;
   });
   main = main || _(data['main story']).last();
   html += '<article class=main>' + main.html + '</article>';
