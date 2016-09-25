@@ -52,7 +52,7 @@ questions:
       - text: Not everyday
         points: 1
         story:
-          '<h1><a href ="http://www.seriouseats.com/2011/07/the-nasty-bits-jellyfish.html">
+          '<h1><a href="http://www.seriouseats.com/2011/07/the-nasty-bits-jellyfish.html">
           </a>Jellyfish: All Time Favorite Calcium Source</h1>
           <p class=byline>By KERRY HENG</p>
           <p>Three steps for a delicious nutritious meal. Gourmet tip: for an extra enjoyment add some herbs</p>
@@ -80,16 +80,17 @@ questions:
       - text: Around 15 - 30 m2 (a couple of rooms)
         points: 1
         story:
-          '<a href="https://www.ted.com/talks/anthony_atala_printing_a_human_kidney?language=en"><img src=images/ORGANS_GIF_new.gif></a>'
+          '<a href="https://www.ted.com/talks/anthony_atala_printing_a_human_kidney?language=en"><img src=images/organsgif.gif></a>'
       - text: Over 40 m2 (a house) 
         points: 2
         story:
-          '<img src=images/floatinghouse-01.gif>
-          <a href="https://www.architectural-review.com/archive/rebuilding-our-cities-in-a-world-facing-flooding/8659950.article"></a>'
+          '<a href="https://www.architectural-review.com/archive/rebuilding-our-cities-in-a-world-facing-flooding/8659950.article">
+          <img src=images/floatinghouseNEW.gif>
+          </a>'
 
 
   - prompt:
-      How many new items (for example fashion, furnishing, lifestyle) do buy on a month?
+      How many new items do you buy in a month?
     answers:
       - text: 0 - 10 items
         points: 0
@@ -98,16 +99,15 @@ questions:
       - text: 11 to 25 items
         points: 1
         story:
-          '<h1></h1>
-          <img src=>
-          <a href="http://www.ecouterre.com/grow-your-own-microbial-leather-in-your-kitchen-diy-tutorial/">
+          '<h1><a href="http://www.ecouterre.com/grow-your-own-microbial-leather-in-your-kitchen-diy-tutorial/">Make Your Own Leather</a></h1>
           <p class=byline>By NAOMI KAMALANI</p>
-          <p></p>'
+          <iframe src="https://player.vimeo.com/video/184246691?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <p>Here in our latest series of DIY projects, expert tanner Lucy Cooper shows how to make your own leather</p>'
       - text: Over 26 items
         points: 2
         story:
           '<h1>Pre Flood Fashion Revival</h1>
-          <img src=images/seweed_dress2.jpg>
+          <img src=images/seweed_dress.jpg>
           <a href ="http://www.peta.org/living/fashion/8-awesome-alternatives-wool/"></a>
           <p class=byline>By ADELA SULIMAN</p>
           <p>Pre flood fashion is the big trend this season! Designer Rachel T brings back the old world in her new collection, despite its lack of practicality in the today’s water based society. It reminds us of passed times - sitting in the streets of Paris or New York with a cup of coffee and a croissant. This kind of nostalgia reflects in her looks - contemporary natural nautical materials flirt with these valuable items produced on land.</p>'
@@ -122,11 +122,12 @@ questions:
       - text: Public transport
         points: 1
         story:
-          <h1>Electric Car</h1>
-          <img src=>
-          <a href = "https://www.sciencedaily.com/releases/2014/11/141103114045.htm">
+         '<h1><a href = "https://www.sciencedaily.com/releases/2014/11/141103114045.htm">DIY: How to Hack an Electric Car</a></h1>
+          <img src=images/bikecarad.gif>
           <p class=byline>By PAT BRETT</p>
-          <p>You take public transport</p>
+          <p>This weeks tutorial to Past Electricity Transportation takes a look on the millions of electric cars abandoned in the country. You just have to find one, get rid of the heavy electronic parts such as batteries and you’re ready to hack it to your very own pedal driven device!
+</p>'
+
       - text: Car
         points: 2
         story:
@@ -158,21 +159,20 @@ main story:
   - points: 3
     html:
 
-      
   - points: 4
     html:
       <h1>Woman Kills Pedestrian In Order to Charge Phone</h1>
-      <a href = "http://www.nature.com/nature/journal/v481/n7382/full/481433a.html"> </a>
-      <img src = images/crazywomanphone-01.jpg>
+      <a href="http://www.nature.com/nature/journal/v481/n7382/full/481433a.html"> </a>
+      <img class=small src="images/crazywomanphone-01.jpg">
       <p class=byline>By KAREN WORKMAN and MERRILL D. OLIVER</p>
       <p class=date>7:55 AM ET</p>
       <p>A terrible attack took place this Monday Morning in Central Park. Witnesses saw a woman in mental crisis kill 26 year old teacher Charles B. to get his phone. After deeper investigation the police are not sure if this attack was to get access to a charged phone or if the woman is part of the Energy Terrorist Ring trying to take over all the existing energy on earth.</p>
       
   - points: 5
     html:
-      <h1>Land Mafia Takes Over Last Island</h1>
-      <a href = "http://www.lloyds.com/~/media/files/news%20and%20insight/risk%20insight/2015/food%20system%20shock/food%20system%20shock_june%202015.pdf"></a>
-      <iframe src="https://player.vimeo.com/video/184230001" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <h1>
+      <a href="http://www.lloyds.com/~/media/files/news%20and%20insight/risk%20insight/2015/food%20system%20shock/food%20system%20shock_june%202015.pdf">Land Mafia Takes Over Last Island</a></h1>
+      <iframe src="https://player.vimeo.com/video/184246367?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       <p class=byline>By ASHTON JERRY and RUDO NGOZI</p>
       <p class=date>6:00 AM EST</p>
       <p>The world’s most dangerous land mafia LandKill took over the planet’s last remaining landmass in a violent attack last night. </p>
