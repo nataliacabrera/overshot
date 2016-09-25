@@ -47,6 +47,7 @@ questions:
         story:
           '<h1>Quick And Easy Seven Eyed Salmon</h1>
           <a href="http://www.rantpets.com/2015/05/21/these-pictures-of-deformed-fish-will-make-you-realize-how-bad-pollution-really-is/"><img src=images/fish.jpg></a>
+          <p>By CAHAYA CYRILLE</p>
           <p>This delicious dish is ready in less than 30 minutes! Cool sea grass salsa pairs perfectly with the delicious Seven Eyed Salmon. For a sandwich option, serve fish and salsa in sun dried fish skin pockets.</p>
           <p>Pro tip: Be sophisticated and use the eyes only on top of a sea horse chutney!</p>'
 
@@ -81,9 +82,10 @@ questions:
       - text: Over 26 items
         points: 2
         story:
-          "<h1>This Season It's All About the Old World</h1>
+          '<h1>Pre Flood Fashion Revival</h1>
           <img src=images/seweed_dress.jpg>
-          <p>Pre flood fashion is the big trend this season! Designer Rachel T brings back the old world in her new collection, despite its lack of practicality in the today’s water based society. It reminds us of passed times - sitting in the streets of Paris or New York with a cup of coffee and a croissant. This kind of nostalgia reflects in her looks - contemporary natural nautical materials flirt with these valuable items produced on land.</p>"
+          <p>By ADELA SULIMAN</p>
+          <p>Pre flood fashion is the big trend this season! Designer Rachel T brings back the old world in her new collection, despite its lack of practicality in the today’s water based society. It reminds us of passed times - sitting in the streets of Paris or New York with a cup of coffee and a croissant. This kind of nostalgia reflects in her looks - contemporary natural nautical materials flirt with these valuable items produced on land.</p>'
 
   - prompt:
       How do you mostly get around?
@@ -99,7 +101,10 @@ questions:
       - text: Car
         points: 2
         story:
-          <p>You drive</p>
+          <h1>Seaweed Harvesting Devices </h1>
+          <a href = "http://www.theatlantic.com/international/archive/2011/11/the-coming-green-wave-ocean-farming-to-fight-climate-change/248750/"></a>
+          <p>By MARK LANDLER and NOAH WEILAND</p>
+          <p>Seaweed harvesting devices are becoming an increasingly important lifestyle choice.  Scientists have been working on solutions to provide vitamins to replace vegetables and fruits that can now no longer be grown. This new seaweed harvesting devices which helps you keeping up your vitamin household on a pre-flood level.</p>
 
 end modal:
   <div class=modal>
@@ -117,12 +122,14 @@ main story:
   - points: 0
     html:
       <h1>Therapists Demonstrate To Bring Back More Technology</h1>
+      <p>By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
       <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>
 
   - points: 3
     html:
       <h1>Energy Police Shuts Down Beauty Salons</h1>
       <img src = "http://estaticos02.elmundo.es/elmundo/imagenes/2010/08/11/baleares/1281465410_extras_ladillos_2_0.jpg">
+      <p>By CHRISTOPHER MELER and NIRAJ CHOKSHICK</p>
       <p>In an attempt to conserve the last remaining energy supplies in the United States, the Energy Police have shut down all beauty salons citing excessive use of water and heat. This is fifth industry to be hit by the recent regulation that bans “frivolous” use of energy, after the high profile shutdown of the aviation business.</p>
       <p>Housewife Sylvia B., 45, said “It was somehow ok when they forced me washing my dishes by hand, but I really don’t know how to sleek my hair manually”.</p>
 
@@ -130,12 +137,16 @@ main story:
   - points: 4
     html:
       <h1>Woman Kills Pedestrian In Order to Charge Phone</h1>
+      <p>By KAREN WORKMAN and MERRILL D. OLIVER</p>
+      <p>7:55 AM ET</p>
       <p>A terrible attack took place this Monday Morning in Central Park. Witnesses saw a woman in mental crisis kill 26 year old teacher Charles B. to get his phone. After deeper investigation the police are not sure if this attack was to get access to a charged phone or if the woman is part of the Energy Terrorist Ring trying to take over all the existing energy on earth.</p>
       
   - points: 5
     html:
       <h1>Land Mafia Takes Over Last Island</h1>
       <img src=images/landmafia.jpg>
+      <p>By ASHTON JERRY and RUDO NGOZI</p>
+      <p>6:00 AM EST</p>
       <p>The world’s most dangerous land mafia LandKill took over the planet’s last remaining landmass in a violent attack last night. </p>
       <p>After the great flood in 2038 the mafia became more and more influential recruiting their members amongst underprivileged people without access to food or floating devices.  “It is easy to understand” so Christian J., president of the Organisation for Landmass Distribution “losing 60% of all humankind to the flood puts the ones without land or tools to fish in a position of anger. This is perfect fertile soil for the terrorists. They promise them huge Floating Devices and a bright future in the community.”</p>
       <p>The people who were actually living on this last piece of land, which used to be Equador, were kicked barbarously into the water by the mafia to fend for themselves. </p>     
