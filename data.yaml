@@ -34,9 +34,9 @@ questions:
       - text: more than 5
         points: 2
         story:
-          '<h1>United Nations Meet In Response To Attack</h1>
+          '<h1><a href = "http://www.bbc.com/future/story/20150616-what-happens-when-the-sea-swallows-a-country">
+          United Nations Meet In Response To Attack</a></h1>
           <img src=images/UNheadquarterssky.jpg>
-          <a href = "http://www.bbc.com/future/story/20150616-what-happens-when-the-sea-swallows-a-country"> </a>
           <p class=byline>By RENE ARIEL</p>
           <p>The United Nations met today in their floating headquarters to discuss the implications of the recent attack. Diminished in influence due to the lack of land based nations, they condemned the attack. The UK Prime Minister (second from left in picture) called the LandMafia’s assault “an act of wanton terrorism”. </p>'
 
