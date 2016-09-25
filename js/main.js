@@ -177,7 +177,7 @@ $(document).on('click', 'body#end .changer h2', function(e) {
   $('.changer').addClass('active');
 });
 
-$(document).on('click', 'body#end .close, body#end main', function(e) {
+$(document).on('click', 'body#end .close, body#end header, body#end main', function(e) {
   $('.changer').removeClass('active');
 });
 
