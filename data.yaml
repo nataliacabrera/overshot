@@ -1,6 +1,6 @@
 
 intro: 
-  <h1>Earth Overshoot</h1>
+  <h1>OVERSHOT</h1>
   
   <p>Earth Overshoot Day is the date on which humanity’s resource consumption for the year exceeds Earth’s capacity to regenerate those resources that year.</p>
 
@@ -25,7 +25,8 @@ questions:
       - text: 2 - 5
         points: 1
         story:
-           '<h1>Energy Police Shuts Down Beauty Salons</h1>
+           '<h1><a href="http://www.stat.berkeley.edu/~aldous/Real-World/gst4_update9_Feb10.pdf">
+           Energy Police Shuts Down Beauty Salons</a></h1>
            <img src = "http://estaticos02.elmundo.es/elmundo/imagenes/2010/08/11/baleares/1281465410_extras_ladillos_2_0.jpg">
            <p class=byline>By CHRISTOPHER MELER and NIRAJ CHOKSHICK</p>
            <p>In an attempt to conserve the last remaining energy supplies in the United States, the Energy Police have shut down all beauty salons citing excessive use of water and heat. This is fifth industry to be hit by the recent regulation that bans “frivolous” use of energy, after the high profile shutdown of the aviation business.</p>
@@ -50,9 +51,12 @@ questions:
       - text: Not everyday
         points: 1
         story:
-          <h1></h1>
-          <img src=>
-          <a href ="http://www.seriouseats.com/2011/07/the-nasty-bits-jellyfish.html">
+          '<h1> <a href ="http://www.seriouseats.com/2011/07/the-nasty-bits-jellyfish.html">
+          </a></h1>
+          <p>Three steps for a delicious nutritious meal. Gourmet tip: for an extra enjoyment ad some herbs</p>
+          <p>For a year-round calcium supply get your own jellyfish farm for home!</p>
+          <img src=images/recipe_jellyfish.gif>
+         
           <p class=byline>By KERRY HENG</p>
           <p></p>
       - text: Everyday
