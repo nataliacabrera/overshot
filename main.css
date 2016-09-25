@@ -5,13 +5,28 @@ html {
   color: #333;
   box-sizing: border-box;
 }
+pre {
+  font-size: 2em;
+}
 body#intro {
   max-width: 600px;
   margin: auto;
 }
+body#intro h1 {
+  font-size: 4em;
+  text-align: center;
+}
+body#intro h1 + p {
+  margin-top: 10rem;
+}
 body#intro p {
   font-size: 2em;
-  margin: 20rem 1rem;
+  margin: 15rem 1rem;
+}
+body#intro p:last-child {
+  text-align: center;
+  font-size: 3em;
+  margin: 10rem 1rem;
 }
 body#question {
   max-width: 600px;
@@ -45,9 +60,6 @@ body#end div.modal .message {
   transform: translate(-50%, -50%);
   background: white;
   padding: 2em;
-}
-body#end header {
-  padding: 1rem;
 }
 body#end img.nyt {
   width: 100%;
@@ -89,9 +101,6 @@ body#end main article {
 body#end main article.main {
   -ms-flex-preferred-size: 60%;
   flex-basis: 60%;
-}
-body#end main article.question0 {
-  display: none;
 }
 body#end main article.question2 {
   -ms-flex-preferred-size: 60%;

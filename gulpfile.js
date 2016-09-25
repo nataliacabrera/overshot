@@ -2,7 +2,7 @@ var gulp = require('gulp');
 
 // for javascript
 var browserify = require('browserify');
-var yamlify = require('yamlify');
+var babelify = require('babelify');
 var source = require('vinyl-source-stream');
 
 // for css
@@ -16,7 +16,7 @@ var reload = browserSync.reload;
 
 gulp.task('js', () => {
   return browserify({entries: ['./js/main.js']})
-  .transform(yamlify)
+  .transform(babelify, {presets: ['es2015']})
   .bundle()
   .on('error', onError)
   .pipe(source('./main.js'))

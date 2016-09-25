@@ -7,16 +7,33 @@ html {
   box-sizing: border-box;
 }
 
+pre {
+  font-size: 2em;
+}
 
 body#intro {
   max-width: 600px;
   margin: auto;
 
-  p {
-    font-size: 2em;
-    margin: 20rem 1rem;
+  h1 {
+    font-size: 4em;
+    text-align: center;
   }
 
+  h1 + p {
+    margin-top: 10rem;
+  }
+
+  p {
+    font-size: 2em;
+    margin: 15rem 1rem;
+  }
+
+  p:last-child {
+    text-align: center;
+    font-size: 3em;
+    margin: 10rem 1rem;
+  }
 }
 
 
@@ -59,12 +76,6 @@ body#end {
     padding: 2em;
   }
 
-
-
-  header {
-    padding: 1rem;
-  }
-
   img.nyt {
     width: 100%;
     display: block;
@@ -102,10 +113,7 @@ body#end {
     article.main {
       flex-basis: 60%;
     }
-    
-    article.question0 {
-      display: none;
-    }
+
     article.question2 {
       flex-basis: 60%;
     }

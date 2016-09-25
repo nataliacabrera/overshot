@@ -1,8 +1,46 @@
 window.$ = require('jquery');
 window._ = require('underscore');
-var data = require('../data.yaml');
 
-$(update);
+import 'core-js/es6/promise';
+import 'whatwg-fetch';
+import jsYaml from 'js-yaml';
+
+var data;
+
+$(() => {
+
+  fetch('data.yaml')
+  .then(response => {
+    if (response.ok)
+      return response.text();
+    else
+      document.body.innerHTML = `
+        <pre>
+          ${response.url}
+          ${response.statusText}
+        </pre>
+      `;
+  })
+  .then(yaml => {
+    data = jsYaml.safeLoad(yaml);
+    update();
+  })
+  .catch(err => {
+    console.error(err);
+    // yaml error
+    if (error.reason) {
+      document.body.innerHTML = `
+        <pre>
+          ${err.reason}
+          ${err.mark}
+        </pre>
+      `;
+    }
+    else
+      document.body.innerHTML = `<pre>${err.message}</pre>`;
+  });
+
+});
 
 $(window).on('popstate', function() {
   update();
@@ -32,7 +70,7 @@ function update() {
 }
 
 function setHash(hash) {
-  history.replaceState(undefined, undefined, location.pathname + hash);
+  history.pushState(undefined, undefined, location.pathname + hash);
 }
 
 function parseHash() {
@@ -68,16 +106,11 @@ function showQuestion(index) {
 
 function showEnd() {
   var answers = parseHash();
-  var html = data['end modal'];
-  html += '<header>' + data.end + '</header>';
 
-  html += '<main></main>'
-
-  html += '<div class=changer><h2>Change my answers</h2><div class=close>&times;</div><div class=questions>'
-  html += data.questions.map(function(q, i) {
-    return (
-      '<h3>' + q.prompt + '</h3>' +
-      '<select>' +
+  var questions = data.questions.map(function(q, i) {
+    return `
+      <h3>${q.prompt}</h3>
+      <select>` +
         q.answers.map(function(a, j) {
           if (answers[i] === j)
             return '<option selected value=' + j + '>' + a.text + '</option>';
@@ -85,14 +118,28 @@ function showEnd() {
             return '<option value=' + j + '>' + a.text + '</option>';
         }).join('') +
       '</select>'
-    );
   }).join('');
-  html += '</div></div>';
+
+  var html = `
+    ${data['end modal']}
+    <header>
+      <img class=nyt src=images/NYTheader.jpg>
+      <div class=date>July 1, 2040</div>
+    </header>
+    <main></main>
+    <img class=nyt src=images/NYTbottom.png>
+    <div class=changer>
+      <h2>Change my answers</h2>
+      <div class=close>&times;</div>
+      <div class=questions>${questions}</div>
+    </div>
+  `;
 
   $(document.body).html(html);
-  document.body.id = 'end';
   buildNewspaper();
+  document.body.id = 'end';
 }
+
 
 function buildNewspaper() {
   var html = '';
@@ -110,6 +157,7 @@ function buildNewspaper() {
 
   $('main').html(html);
 }
+
 
 $(document).on('click', 'body#end .modal', function(e) {
   $('.modal').remove();
