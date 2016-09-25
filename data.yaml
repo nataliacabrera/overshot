@@ -34,9 +34,9 @@ questions:
       - text: more than 5
         points: 2
         story:
-          '<h1>United Nations Meet In Response To Attack</h1>
+          '<h1><a href="http://www.bbc.com/future/story/20150616-what-happens-when-the-sea-swallows-a-country">
+          United Nations Meet In Response To Attack</a></h1>
           <img src=images/UNheadquarterssky.jpg>
-          <a href = "http://www.bbc.com/future/story/20150616-what-happens-when-the-sea-swallows-a-country"> </a>
           <p class=byline>By RENE ARIEL</p>
           <p>The United Nations met today in their floating headquarters to discuss the implications of the recent attack. Diminished in influence due to the lack of land based nations, they condemned the attack. The UK Prime Minister (second from left in picture) called the LandMafia’s assault “an act of wanton terrorism”. </p>'
 
@@ -58,8 +58,9 @@ questions:
       - text: Everyday
         points: 2
         story:
-          '<h1>Quick And Easy Seven Eyed Salmon</h1>
-          <a href="https://www.southernenvironment.org/news-and-press/press-releases/duke-energy-coal-ash-pollution-deforms-fish-in-sutton-lake"><img src=images/Receipe_GIF.gif></a>
+          '<h1><a href="https://www.southernenvironment.org/news-and-press/press-releases/duke-energy-coal-ash-pollution-deforms-fish-in-sutton-lake"><img src=images/Receipe_GIF.gif>
+            Quick And Easy Seven Eyed Salmon
+          </a></h1>
           <p class=byline>By CAHAYA CYRILLE</p>
           <p>This delicious dish is ready in less than 30 minutes! Cool sea grass salsa pairs perfectly with the delicious Seven Eyed Salmon. For a sandwich option, serve fish and salsa in sun dried fish skin pockets.</p>
           <p>Pro tip: Be sophisticated and use the eyes only on top of a sea horse chutney!</p>'
@@ -167,7 +168,7 @@ main story:
     html:
       <h1>Land Mafia Takes Over Last Island</h1>
       <a href = "http://www.lloyds.com/~/media/files/news%20and%20insight/risk%20insight/2015/food%20system%20shock/food%20system%20shock_june%202015.pdf"></a>
-      <img src=images/landmafia.jpg>
+      <iframe src="https://player.vimeo.com/video/184230001" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       <p class=byline>By ASHTON JERRY and RUDO NGOZI</p>
       <p class=date>6:00 AM EST</p>
       <p>The world’s most dangerous land mafia LandKill took over the planet’s last remaining landmass in a violent attack last night. </p>
