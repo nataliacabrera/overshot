@@ -29,7 +29,11 @@ questions:
       - text: more than 5
         points: 2
         story:
-          '<p></p>'
+          '<h1>United Nations Meet In Response To Attack</h1>
+          <img src=>
+          <a href = "http://www.bbc.com/future/story/20150616-what-happens-when-the-sea-swallows-a-country"> </a>
+          <p>By RENE ARIEL</p>
+          <p></p>'
 
   - prompt:
       How many times a week do you eat meat?
@@ -47,6 +51,7 @@ questions:
         story:
           '<h1>Quick And Easy Seven Eyed Salmon</h1>
           <a href="https://www.southernenvironment.org/news-and-press/press-releases/duke-energy-coal-ash-pollution-deforms-fish-in-sutton-lake"><img src=images/Receipe_GIF.gif></a>
+          <img src=images/Receipe_GIF.gif>
           <p>By CAHAYA CYRILLE</p>
           <p>This delicious dish is ready in less than 30 minutes! Cool sea grass salsa pairs perfectly with the delicious Seven Eyed Salmon. For a sandwich option, serve fish and salsa in sun dried fish skin pockets.</p>
           <p>Pro tip: Be sophisticated and use the eyes only on top of a sea horse chutney!</p>'
