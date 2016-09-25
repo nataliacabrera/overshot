@@ -34,7 +34,7 @@ questions:
       - text: more than 5
         points: 2
         story:
-          '<h1><a href = "http://www.bbc.com/future/story/20150616-what-happens-when-the-sea-swallows-a-country">
+          '<h1><a href="http://www.bbc.com/future/story/20150616-what-happens-when-the-sea-swallows-a-country">
           United Nations Meet In Response To Attack</a></h1>
           <img src=images/UNheadquarterssky.jpg>
           <p class=byline>By RENE ARIEL</p>
