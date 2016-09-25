@@ -4,6 +4,7 @@ window._ = require('underscore');
 import 'core-js/es6/promise';
 import 'whatwg-fetch';
 import jsYaml from 'js-yaml';
+import moment from 'moment';
 
 var data;
 
@@ -159,8 +160,10 @@ function buildNewspaper() {
 
   $('main').html(html);
 
-
-  $('.top-date').text('July 20, 2040');
+  let days = (10 - score()) * 36.5;
+  let date = new Date(2040, 0, 1)
+  date = date.setDate(date.getDate() + days);
+  $('.top-date').text(moment(date).format('MMMM Do YYYY')); 
 }
 
 
@@ -174,7 +177,7 @@ $(document).on('click', 'body#end .changer h2', function(e) {
   $('.changer').addClass('active');
 });
 
-$(document).on('click', 'body#end .close', function(e) {
+$(document).on('click', 'body#end .close, body#end main', function(e) {
   $('.changer').removeClass('active');
 });
 
