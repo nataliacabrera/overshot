@@ -13,24 +13,23 @@ body#intro {
   margin: auto;
 }
 body#intro h1 {
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
-}
-body#intro h1 + p {
-  margin-top: 10rem;
 }
 body#intro p {
   font-size: 2em;
-  margin: 15rem 1rem;
+  margin: 4rem 1rem;
 }
 body#intro p:last-child {
   text-align: center;
   font-size: 3em;
-  margin: 10rem 1rem;
 }
 body#question {
   max-width: 600px;
   margin: auto;
+}
+body#question h1 {
+  margin-top: 3em;
 }
 body#question a {
   display: inline-block;
@@ -64,10 +63,8 @@ body#end div.modal .message {
 body#end img.nyt {
   display: block;
   width: 100%;
-}
-body#end img.nyt-filler {
-  display: block;
-  width: 33%;
+  max-width: 1000px;
+  margin: auto;
 }
 body#end .top-date {
   text-align: center;
@@ -80,7 +77,9 @@ body#end .top-date {
 }
 body#end main {
   min-height: 100vh;
-  font-size: 1.3em;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 1em;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row wrap;
@@ -119,6 +118,7 @@ body#end article img {
 }
 body#end p {
   font-family: Georgia, sans-serif;
+  margin-bottom: 1rem;
 }
 body#end p.byline {
   font-size: .8em;

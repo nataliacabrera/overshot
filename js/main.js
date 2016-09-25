@@ -156,8 +156,6 @@ function buildNewspaper() {
     html += '<article class=question' + i + '>' + data.questions[i].answers[a].story + '</article>';
   });
 
-  html += '<img class=nyt-filler src=images/NYTfiller.png>';
-
   $('main').html(html);
 
   let days = (10 - score()) * 36.5;
