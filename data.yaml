@@ -22,12 +22,11 @@ questions:
         points: 0
         story:
           '<h1>Therapists Demonstrate To Bring Back More Technology</h1>
-          <img src="/images/doctors_protest.jpg">
+          <img src=images/doctors_protest.jpg>
           <p class=byline>By CHRISTOPHER MELER and NIRAJ CHOKSHICK</p>
           <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p> 
           <p>  </p>
           <img src=images/NYTfiller.png>'
-
       - text: 2 - 5
         points: 1
         story:
@@ -56,7 +55,12 @@ questions:
       - text: Never
         points: 0
         story:
-          <p style= 'background-color:red;'>You are a vegetarian</p>
+
+          '<h1>Placenta Deluxe</h1>
+           <p>Food trend placenta! Since a few years the mother of all organs finds it’s way in the menu’s of exclusive restaurants. </p>
+           <p>Because of it’s nutritional values, the positive support on the body’s defense system and it’s spiritual and clearing effects more and more foodies want to take advantage of it. - Even without giving birth before. Therefore chefs and gastronomes are paying tremendous amounts of money to buy off fresh placentas from mothers right after being in labor. In hospitals black markets arise and mothers get pressured to sell, or share, their placentas. For those who want to prepare their own placenta just as fancy as in the restaurant, we peeked behind closed kitchen doors and got some culinary inspiration. Next time you could try one of these:
+            </p>
+           <img src=images/placenta.gif>'
       - text: Not everyday
         points: 1
         story:
@@ -87,7 +91,7 @@ questions:
       - text: Around 15 m2 (about one room)
         points: 0
         story:
-          <p>You live in a bedsit</p>
+          '<img src=images/grownyourown.gif>'
       - text: Around 15 - 30 m2 (a couple of rooms)
         points: 1
         story:
@@ -106,7 +110,10 @@ questions:
       - text: 0 - 10 items
         points: 0
         story:
-          <p>You dont buy that much</p>
+          '<h1>Nude is the new back</h1>
+          <img src=images/naked.jpg>
+          <p>If you are thinking about the color nude you are definitely living in the past. We are talking about the newest trend in Hollywood: to be naked. Check Amanda Johnson rocking a natural beauty look while shopping sustainable accessories in L.A.
+</p>'
       - text: 11 to 25 items
         points: 1
         story:
@@ -129,7 +136,15 @@ questions:
       - text: Walking or biking
         points: 0
         story:
-          <p>You walk</p>
+          '<h1>5 steps to boost your karma</h1>
+          <img src=images/karma.gif>
+          <p>Also this week we think about how we can contribute to a peaceful world with ying and yang consistent with the universe</p>
+          <p>1.- Crystals, crystals and more crystals!</p>
+          <p>2.- Smile, smile smile!</p>
+          <p>3.- Be one with mother nature</p>
+          <p>4.- Dance with nature</p>
+          <p>5.- Forgive!</p>'
+
       - text: Public transport
         points: 1
         story:
