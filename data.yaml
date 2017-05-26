@@ -180,7 +180,6 @@ main story:
     html:
       <h1>Therapists Demonstrate To Bring Back More Technology</h1> 
       <img src="images/doctors_protest.jpg">
-
       <p class=byline>By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
       <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>
 
@@ -189,7 +188,7 @@ main story:
 
   - points: 4
     html:
-      <h1>
+      <h1></h1>
       <a href="http://www.nature.com/nature/journal/v481/n7382/full/481433a.html"> Woman Kills Pedestrian In Order to Charge Phone</a></h1>
       <img src="images/crazywomanphone-01.jpg">
       <p class=byline>By KAREN WORKMAN and MERRILL D. OLIVER</p>
