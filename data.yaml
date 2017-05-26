@@ -56,7 +56,7 @@ questions:
       - text: Never
         points: 0
         story:
-          '<p>You are a monster</p>'
+          <p style= 'background-color:red;'>You are a vegetarian</p>
       - text: Not everyday
         points: 1
         story:
