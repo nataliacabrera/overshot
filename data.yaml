@@ -91,7 +91,7 @@ questions:
       - text: Around 15 m2 (about one room)
         points: 0
         story:
-          '<img src=images/grownyourown.gif>'
+          '<img src=images/growyourown.gif>'
       - text: Around 15 - 30 m2 (a couple of rooms)
         points: 1
         story:
