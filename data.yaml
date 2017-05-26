@@ -186,7 +186,7 @@ main story:
 
   - points: 3
     html:
-    <h1 style="background-color:red;"> am I the problem?</h1>
+
   - points: 4
     html:
       <h1>
