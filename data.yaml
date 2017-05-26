@@ -21,7 +21,13 @@ questions:
       - text: 0 - 1
         points: 0
         story:
-          ''
+          '<h1>Therapists Demonstrate To Bring Back More Technology</h1>
+          <img src="/images/doctors_protest.jpg">
+          <p class=byline>By CHRISTOPHER MELER and NIRAJ CHOKSHICK</p>
+          <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p> 
+          <p>  </p>
+          <img src=images/NYTfiller.png>'
+
       - text: 2 - 5
         points: 1
         story:
