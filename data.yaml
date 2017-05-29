@@ -183,12 +183,26 @@ main story:
       <p class=byline>By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
       <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>
 
+  - points: 1
+      html:
+        <h1>1 Therapists Demonstrate To Bring Back More Technology</h1> 
+        <img src="images/doctors_protest.jpg">
+        <p class=byline>By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
+        <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>
+
+  - points: 2
+      html:
+        <h1>2Therapists Demonstrate To Bring Back More Technology</h1> 
+        <img src="images/doctors_protest.jpg">
+        <p class=byline>By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
+        <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>
+  
   - points: 3
-    html:
-    <h1 style= "background-color:red; ">Therapists Demonstrate To Bring Back More Technology</h1> 
-      <img src="images/doctors_protest.jpg">
-      <p class=byline>By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
-      <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>
+      html:
+        <h1>3Therapists Demonstrate To Bring Back More Technology</h1> 
+        <img src="images/doctors_protest.jpg">
+        <p class=byline>By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
+        <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>
 
   - points: 4
     html:
