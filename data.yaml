@@ -192,37 +192,37 @@ main story:
 
   - points: 2
       html:
-        <h1>2Therapists Demonstrate To Bring Back More Technology</h1> 
+        '<h1>2Therapists Demonstrate To Bring Back More Technology</h1> 
         <img src="images/doctors_protest.jpg">
         <p class=byline>By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
-        <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>
+        <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>'
   
   - points: 3
       html:
-        <h1>3Therapists Demonstrate To Bring Back More Technology</h1> 
+        '<h1>3Therapists Demonstrate To Bring Back More Technology</h1> 
         <img src="images/doctors_protest.jpg">
         <p class=byline>By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
-        <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>
+        <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>'
 
   - points: 4
     html:
-      <h1></h1>
+      '<h1></h1>
       <a href="http://www.nature.com/nature/journal/v481/n7382/full/481433a.html"> Woman Kills Pedestrian In Order to Charge Phone</a></h1>
       <img src="images/crazywomanphone-01.jpg">
       <p class=byline>By KAREN WORKMAN and MERRILL D. OLIVER</p>
       <p class=date>7:55 AM ET</p>
-      <p>A terrible attack took place this Monday Morning in Central Park. Witnesses saw a woman in mental crisis kill 26 year old teacher Charles B. to get his phone. After deeper investigation the police are not sure if this attack was to get access to a charged phone or if the woman is part of the Energy Terrorist Ring trying to take over all the existing energy on earth.</p>
+      <p>A terrible attack took place this Monday Morning in Central Park. Witnesses saw a woman in mental crisis kill 26 year old teacher Charles B. to get his phone. After deeper investigation the police are not sure if this attack was to get access to a charged phone or if the woman is part of the Energy Terrorist Ring trying to take over all the existing energy on earth.</p>'
       
   - points: 5
     html:
-      <h1>
+      '<h1>
       <a href="http://www.lloyds.com/~/media/files/news%20and%20insight/risk%20insight/2015/food%20system%20shock/food%20system%20shock_june%202015.pdf">Land Mafia Takes Over Last Island</a></h1>
       <iframe src="https://player.vimeo.com/video/184246367?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       <p class=byline>By ASHTON JERRY and RUDO NGOZI</p>
       <p class=date>6:00 AM EST</p>
       <p>The world’s most dangerous land mafia LandKill took over the planet’s last remaining landmass in a violent attack last night. </p>
       <p>After the great flood in 2038 the mafia became more and more influential recruiting their members amongst underprivileged people without access to food or floating devices.  “It is easy to understand” so Christian J., president of the Organisation for Landmass Distribution “losing 60% of all humankind to the flood puts the ones without land or tools to fish in a position of anger. This is perfect fertile soil for the terrorists. They promise them huge Floating Devices and a bright future in the community.”</p>
-      <p>The people who were actually living on this last piece of land, which used to be Equador, were kicked barbarously into the water by the mafia to fend for themselves. </p>     
+      <p>The people who were actually living on this last piece of land, which used to be Equador, were kicked barbarously into the water by the mafia to fend for themselves. </p>'     
       
 
 
