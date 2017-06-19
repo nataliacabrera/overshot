@@ -113,7 +113,7 @@ questions:
           '<h1>Nude is the new black</h1>
           <img src=images/naked.jpg>
           <p>If you are thinking about the color ‘nude’ you are definitely living in the past. We are talking about the newest trend in Hollywood: to be naked. Check out actress of the moment Amanda Johnson rocking a natural beauty look while shopping sustainable accessories in L.A.</p>'
-          
+
       - text: 11 to 25 items
         points: 1
         story:
@@ -214,8 +214,8 @@ main story:
 
   - points: 4
     html:
-      '<h1></h1>
-      <a href="http://www.nature.com/nature/journal/v481/n7382/full/481433a.html"> Woman Kills Pedestrian In Order to Charge Phone</a></h1>
+      '<h1>Woman Kills Pedestrian In Order to Charge Phone</h1>
+      <a href="http://www.nature.com/nature/journal/v481/n7382/full/481433a.html"></a>
       <img src="images/crazywomanphone-01.jpg">
       <p class="byline">By KAREN WORKMAN and MERRILL D. OLIVER</p>
       <p class="date">7:55 AM ET</p>
