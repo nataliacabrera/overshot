@@ -110,10 +110,10 @@ questions:
       - text: 0 - 10 items
         points: 0
         story:
-          '<h1>Nude is the new back</h1>
+          '<h1>Nude is the new black</h1>
           <img src=images/naked.jpg>
-          <p>If you are thinking about the color nude you are definitely living in the past. We are talking about the newest trend in Hollywood: to be naked. Check Amanda Johnson rocking a natural beauty look while shopping sustainable accessories in L.A.
-</p>'
+          <p>If you are thinking about the color ‘nude’ you are definitely living in the past. We are talking about the newest trend in Hollywood: to be naked. Check out actress of the moment Amanda Johnson rocking a natural beauty look while shopping sustainable accessories in L.A.</p>'
+          
       - text: 11 to 25 items
         points: 1
         story:
@@ -178,24 +178,32 @@ end:
 main story:
   - points: 0
     html:
-      '<h1>Therapists Demonstrate To Bring Back More Technology</h1> 
-      <img src="images/doctors_protest.jpg">
+      '<h1>Live from Spiritual Summit 2040: what bonding with nature does to our leaders</h1> 
+      <img src="images/Spiritual_Summit.png">
       <p class="byline">By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
-      <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>'
+      <p>After a group meditation in the woods around the IULPH headquarter (International Union for Love, Peace and Harmony) the most important world leaders try to find common ground. 
+        In an act of sisterhood and expansion of consciousness - following the latest trend: see below - a collective naked bath completed the summit. This clearance ritual was initiated from the summits’ regular schaman with the intention to start in this years conference without any bad spirits.
+        Donald: “I enjoyed it bigly!!! I never felt so connected to Angela and Vladimir. So I gave her a yuge American cristal. Broken out of American rocks with American hands. The grounding group meditation was terrific, the best experience! Just amazing!”
+        Closing highlight of the summit was a big ‘circle of trust’ including ‘let it go’ exercises, group and tree hugging.
+        The following goals got declared at this year’s summit:
+          </br>Love
+          </br>Peace
+          </br>Harmony
+          </p>'
 
   - points: 1
     html:
       '<h1>Therapists Demonstrate To Bring Back More Technology</h1> 
       <img src="images/doctors_protest.jpg">
       <p class="byline">By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
-      <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>'
+      <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology. The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity. These developments led to a great reduction of patients with anxiety, burn-out and so called ‘digital addictions’ as we know them from earlier times.  Also the phenomena of cyber mobbing - which often caused teenager suicides and depressions - belongs to the past. Our present challenge now: integrating unemployed therapists in our new society and appreciating their valuable skills in new ways.</p>'
 
   - points: 2
     html:
       '<h1>Therapists Demonstrate To Bring Back More Technology</h1> 
       <img src="images/doctors_protest.jpg">
       <p class="byline">By TIMOTHY WILLIAMS and CAITLIN DICKERSON</p>
-      <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology.  The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity.</p>'
+      <p>500,000 unemployed therapists, psychoanalysts and life coaches teamed up to demonstrate on the streets of New York City to bring back more technology. The use of portable devices has dropped dramatically in recent years as more and more people have chosen to forsake hyperconnectivity. These developments led to a great reduction of patients with anxiety, burn-out and so called ‘digital addictions’ as we know them from earlier times.  Also the phenomena of cyber mobbing - which often caused teenager suicides and depressions - belongs to the past. Our present challenge now: integrating unemployed therapists in our new society and appreciating their valuable skills in new ways.</p>'
 
   - points: 3
     html:
